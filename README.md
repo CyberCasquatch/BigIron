@@ -7,7 +7,7 @@ Hopefully i will remember this as a place to dump all of my antics with this pri
 Configs should show up in the files. So should photos. 
 Photos should be labelled appropriatelly and are mainly for the physical build process of the printer. 
 
-printer.cfg as of 23/04/2026
+printer.cfg as of 18/05/2026
 
 filament.cfg as of 23/04/2026
 
