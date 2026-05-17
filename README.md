@@ -1,5 +1,5 @@
 # BigIron
-Voron 2.4r2 Pro+ Formbot Kit Build
+Voron 2.4r2 Pro+
 
 Will forever be ongoing. 
 
