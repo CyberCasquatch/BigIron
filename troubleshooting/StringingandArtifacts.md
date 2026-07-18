@@ -26,8 +26,8 @@ The Voron profile was also running meaningfully faster than a typical stock Prus
 
 ### 1. Calibrate Pressure Advance (Klipper)
 
-![Before PA](/images/PLA/1.png)
-![Before PA](/images/PLA/1_2.png)
+![Before PA](images/PLA/1.png)
+![Before PA](images/PLA/1_2.png)
 Used [Andrew Ellis' pressure advance calibration tool](https://ellis3dp.com/Print-Tuning-Guide/articles/precise_pressure_advance.html) — a web tool that generates a G-code test pattern directly (no slicer needed), based on printer's real max speed/accel and print temps.
 
 Steps:
