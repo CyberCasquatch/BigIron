@@ -26,8 +26,8 @@ The Voron profile was also running meaningfully faster than a typical stock Prus
 
 ### 1. Calibrate Pressure Advance (Klipper)
 
-![Before PA](/troubleshooting/images/PLA/1.png)
-![Before PA](/troubleshooting/images/PLA/1_2.png)
+![Before PA](/troubleshooting/images/PA_PLA/1.png)
+![Before PA](/troubleshooting/images/PA_PLA/1_2.png)
 Used [Andrew Ellis' pressure advance calibration tool](https://ellis3dp.com/Print-Tuning-Guide/articles/precise_pressure_advance.html) — a web tool that generates a G-code test pattern directly (no slicer needed), based on printer's real max speed/accel and print temps.
 
 Steps:
@@ -39,7 +39,7 @@ Steps:
 
 PETG PA value: _TBD — will add once tested._
 
-> 📷 ![PA calibration test print](/troubleshooting/images/PLA/EllisPATestPLA.png)
+> 📷 ![PA calibration test print](/troubleshooting/images/PA_PLA/EllisPATestPLA.png)
 
 ### 2. Applying PA in the slicer (not printer.cfg)
 
@@ -62,7 +62,7 @@ Filament profile custom G-code (added):
 ```
 SET_PRESSURE_ADVANCE ADVANCE=0.030
 ```
-![After PA](/troubleshooting/images/PLA/2.png)
+![After PA](/troubleshooting/images/PA_PLA/2.png)
 
 ### 3. Checked `PRINT_START` macro for conflicts
 
@@ -86,8 +86,8 @@ Confirmed via the **web UI** (Mainsail/Fluidd) rather than the console, since th
 - Changed to: `45 mm/s` (first pass)
 - **Result: noticeable improvement**, though some fine wisps remained.
 
-![After Retraction Speed Change](/troubleshooting/images/PLA/3.png)
-![After Retraction Speed Change](/troubleshooting/images/PLA/3_2.png)
+![After Retraction Speed Change](/troubleshooting/images/PA_PLA/3.png)
+![After Retraction Speed Change](/troubleshooting/images/PA_PLA/3_2.png)
 
 ### 6. Retraction length 
 
@@ -105,7 +105,7 @@ Confirmed via the **web UI** (Mainsail/Fluidd) rather than the console, since th
 - Confirmed set to `Nearest`.
 
 This is after the retraction length change and seam change:
-> 📷 ![After Retraction Length Change](/troubleshooting/images/PLA/4.png)
+> 📷 ![After Retraction Length Change](/troubleshooting/images/PA_PLA/4.png)
 
 ### 8. Nozzle temp (queued, not yet tested)
 
@@ -138,8 +138,8 @@ This is after the retraction length change and seam change:
 
 Other testing/fixes - see Prusa print (red, shmood) vs Voron print (yellow, rough)
 
-> 📷 ![After Retraction Length Change](/troubleshooting/images/PLA/OuterExample1.png)
-> 📷 ![After Retraction Length Change](/troubleshooting/images/PLA/OuterExample2.png)
+> 📷 ![After Retraction Length Change](/troubleshooting/images/PA_PLA/OuterExample1.png)
+> 📷 ![After Retraction Length Change](/troubleshooting/images/PA_PLA/OuterExample2.png)
 
 
 ## References
