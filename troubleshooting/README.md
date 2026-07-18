@@ -9,6 +9,7 @@ Documentation of issues encountered, fixes applied, and configuration decisions 
 | [Layer Shifting](layer_shifting.md) | Diagnosing and fixing X/Y layer shifts — belts, motor current, slicer settings |
 | [Manta M8P Cooling](manta_cooling.md) | Controller board cooling, fan mount, config for temperature-controlled fans |
 | [Belt Tensioning](belt_tensioning.md) | How to measure and set belt tension, target frequencies |
+| [Stringing and Artifacts](StringingandArtifacts.md) |  |
 
 ## Quick Reference — What Fixed What
 
