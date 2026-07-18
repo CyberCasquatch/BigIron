@@ -28,6 +28,7 @@ The Voron profile was also running meaningfully faster than a typical stock Prus
 
 ![Before PA](/troubleshooting/images/PA_PLA/1.png)
 ![Before PA](/troubleshooting/images/PA_PLA/1_2.png)
+
 Used [Andrew Ellis' pressure advance calibration tool](https://ellis3dp.com/Print-Tuning-Guide/articles/precise_pressure_advance.html) — a web tool that generates a G-code test pattern directly (no slicer needed), based on printer's real max speed/accel and print temps.
 
 Steps:
@@ -62,6 +63,7 @@ Filament profile custom G-code (added):
 ```
 SET_PRESSURE_ADVANCE ADVANCE=0.030
 ```
+
 ![After PA](/troubleshooting/images/PA_PLA/2.png)
 
 ### 3. Checked `PRINT_START` macro for conflicts
