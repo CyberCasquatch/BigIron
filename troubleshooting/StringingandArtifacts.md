@@ -10,7 +10,7 @@ I run a Voron 2.4 and a Prusa MK4S side by side, using the same filament types o
 
 Since the exact same filament behaved differently on two printers, it ruled out the filament itself (moisture aside) and pointed at a printer/firmware/slicer settings gap between the two machines.
 
-![All Tests](troubleshooting/images/PA_PLA/1.PNG)
+![All Tests](/troubleshooting/images/PA_PLA/1.PNG)
 
 
 ## The Diagnosis
